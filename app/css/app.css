@@ -1,0 +1,9 @@
+header h1 {
+    background-color: #034482;
+    background-image: linear-gradient(to bottom, #04498C, #033C73);
+    background-repeat: repeat-x;
+    border-color: #033464;
+    color: #fff;
+    padding: .5rem 0;
+    font-weight: normal;
+}
