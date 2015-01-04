@@ -1,2 +1,2 @@
-ads.controller('MainController', function($scope){
+adsApp.controller('MainController', function($scope){
 })

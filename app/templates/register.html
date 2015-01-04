@@ -1,3 +1,34 @@
-<header>
-    <h1 class="text-center">Ads-Register</h1>
-</header>
+<form class="form-horizontal well">
+    <fieldset>
+        <div class="row">
+            <div class="col-md-12">
+                <legend>Register</legend>
+                <label for="username">Username: </label>
+                <input type="text" id="username" required/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <label for="password">Password: </label>
+                <input type="password" id="password" required/>
+                <label for="name">Name: </label>
+                <input type="text" id="name" required/>
+                <label for="phone">Phone: </label>
+                <input type="text" id="phone" required/>
+            </div>
+            <div class="col-md-6">
+                <label for="confirm-password">Confirm password: </label>
+                <input type="password" id="confirm-password" required/>
+                <label for="email">Email: </label>
+                <input type="text" id="email" required/>
+                <label for="town">Town: </label>
+                <select id="town"></select>
+            </div>
+        </div>
+    </fieldset>
+
+    <div class="form-actions">
+        <button class="btn btn-primary" type="submit">Register</button>
+        <a href="#/login" class="btn">Login</a>
+    </div>
+</form>

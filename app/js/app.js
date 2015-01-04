@@ -1,8 +1,8 @@
-var ads = angular.module('adsModule', ['ngRoute'])
+var adsApp = angular.module('adsApp', ['ngRoute','dcbImgFallback'])
     .config(function($routeProvider){
         $routeProvider.when('/all-ads', {
             templateUrl: 'templates/all-ads.html'
-        });        
+        });
         $routeProvider.when('/login', {
             templateUrl: 'templates/login.html'
         });
@@ -12,4 +12,4 @@ var ads = angular.module('adsModule', ['ngRoute'])
         });
 
         $routeProvider.otherwise({redirectTo: '/all-ads'});
-    });
+    })

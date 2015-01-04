@@ -7,3 +7,7 @@ header h1 {
     padding: .5rem 0;
     font-weight: normal;
 }
+
+.form-horizontal .form-actions {
+    padding-left: 0;
+}
